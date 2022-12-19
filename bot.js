@@ -49,6 +49,7 @@ listener.on('message', msg => {
 
             // 一定给对方点赞
             const regex1 = /(一定)/i;
+            // 被告白了
             const regex2 = /(我爱你|我愛你)/i;
 
             const content = msg.data.status.content;
@@ -64,9 +65,6 @@ listener.on('message', msg => {
                     }
                 });
             }
-
-
-            // 被告白了
 
             else if (regex2.test(content)) {
                 console.log("i will not interact");
@@ -88,7 +86,6 @@ listener.on('message', msg => {
                     })
                 };
             }
-
         }
     }
 });
