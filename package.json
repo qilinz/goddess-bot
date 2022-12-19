@@ -1,0 +1,19 @@
+{
+  "name": "mastodon_bot",
+  "version": "0.0.1",
+  "description": "Codes for Sex Goddess Bot on Quaoar.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "mastodon"
+  ],
+  "author": "Chestnut",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mastodon-api": "^1.3.0"
+  }
+}
